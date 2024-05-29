@@ -1,0 +1,93 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.line{
+    border-left: 2px solid darkgray;
+    height: 100%;
+    position: absolute;
+    left: 37%;
+    margin-left: -3px;
+}
+.tob{
+    position: relative;
+    background-color: darkgray;
+    padding-left: 45%;
+    top: 0;
+}
+img{
+    position: relative;
+    border-radius: 50%;
+    bottom: 60px;
+    margin-left: 35px;
+}
+.bout{
+    position: relative;
+    bottom: 60px;
+}
+.bout h3{
+    background-color: darkgray;
+    width: 35%;
+    text-align: center;
+}
+.lan{
+    position: relative;
+    bottom: 60px;
+}
+.lan h3{
+    background-color: darkgray;
+    width: 35%;
+    text-align: center;
+}
+.lan span {
+    color: #4e4e4e;
+}
+.lan .progress{
+    background-color: #cde1f8;
+    margin: 0.5rem 0 1.2rem 0;
+    border-radius: 0;
+    height: 0.7rem;
+    width: 35%;
+}
+.lan .progress .progress-bar {
+    height: 0.7rem;
+    background-color: #0078ff;
+}
+.hob{
+    position: relative;
+    bottom: 60px;
+}
+.hob h3{
+    background-color: darkgray;
+    width: 35%;
+    text-align: center;
+}
+.hob i{
+    position: relative;
+    padding-left: 100px;
+    color: #0078ff;
+    font-size: 24px;
+}
+.hob ul li {
+    position: relative;
+    list-style: none;
+    display: inline;
+    padding-left: 74px;
+    color: #0078ff;
+    bottom: 15px;
+}
+.con{
+    position: relative;
+    bottom: 70px;
+}
+.con h3{
+    background-color: darkgray;
+    width: 35%;
+    text-align: center;
+}
+.can .far i{
+    position: relative;
+    padding-left: 70px;
+    color: #0078ff;
+    font-size: 24px;
+}
