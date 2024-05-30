@@ -1,7 +1,8 @@
 body{
-    padding: 0%;
     margin: 0%;
+    overflow: hidden;
 }
+ 
 .line{
     border-left: 2px solid darkgray;
     height: 100%;
@@ -13,26 +14,28 @@ body{
     position: relative;
     background-color: darkgray;
     padding-left: 45%;
-    top: 0;
 }
 img{
     position: relative;
     border-radius: 50%;
-    bottom: 60px;
+    top: -75px;
     margin-left: 35px;
 }
 .bout{
     position: relative;
-    bottom: 60px;
+    bottom: 95px;
 }
 .bout h3{
     background-color: darkgray;
     width: 35%;
     text-align: center;
 }
+.bout p{
+    width: 35%;
+}
 .lan{
     position: relative;
-    bottom: 60px;
+    bottom: 95px;
 }
 .lan h3{
     background-color: darkgray;
@@ -55,7 +58,7 @@ img{
 }
 .hob{
     position: relative;
-    bottom: 60px;
+    bottom: 95px;
 }
 .hob h3{
     background-color: darkgray;
@@ -64,7 +67,7 @@ img{
 }
 .hob i{
     position: relative;
-    padding-left: 100px;
+    padding-left: 105px;
     color: #0078ff;
     font-size: 24px;
 }
@@ -78,16 +81,25 @@ img{
 }
 .con{
     position: relative;
-    bottom: 70px;
+    bottom: 110px;
 }
 .con h3{
     background-color: darkgray;
     width: 35%;
     text-align: center;
 }
-.can .far i{
+.con i{
     position: relative;
-    padding-left: 70px;
+    display: block;
     color: #0078ff;
     font-size: 24px;
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    [class*="col-"] {
+        width: 100%;
+    }
 }
