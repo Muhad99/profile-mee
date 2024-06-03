@@ -65,19 +65,24 @@ img{
     width: 35%;
     text-align: center;
 }
-.hob i{
+.hob .fa{
     position: relative;
-    padding-left: 105px;
     color: #0078ff;
-    font-size: 24px;
+    border: 1px solid darkgray;
+    background-color: darkgray;
+    border-radius: 50%;
+    margin-right: 100px;
+    margin-left: 35px;
+    padding: 7px;
+    font-size: 30px;
 }
-.hob ul li {
+.hob .text h4 {
     position: relative;
-    list-style: none;
     display: inline;
-    padding-left: 74px;
+    margin-right: 100px;
+    margin-left: 35px;
     color: #0078ff;
-    bottom: 15px;
+    bottom: -3px;
 }
 .con{
     position: relative;
@@ -94,6 +99,28 @@ img{
     color: #0078ff;
     font-size: 24px;
 }
+
+.con .co::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    margin-left: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #1f5297;
+}
+.con .co{
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    margin-left: 50px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+}
+
+
 
 
 
